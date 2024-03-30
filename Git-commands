@@ -37,7 +37,9 @@ git commit -m "pass your own commit message"  # this takes a snapshot of the you
 
 git commit -a -m "pass your own commit message"  # This command with stage all changes and commits at the smae time
 
-git push -u origin < branch-name >  # push committed changes to remote repository
+git push [remote_name] [branch_name] #push from local repo to remote repo
+
+# git push -u origin < branch-name >  # push committed changes to remote repository
 
 
 ######################## Other Git commands ##################################
